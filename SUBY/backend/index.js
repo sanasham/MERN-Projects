@@ -25,8 +25,8 @@ app.use("/vendor", routes);
 app.use("/firm", firmRoutes);
 app.use("/product", productRoutes);
 
-app.use("/home", (req, res) => {
-  res.send("welcome to india");
+app.use("/", (req, res) => {
+  res.send("welcome to SUBY");
 });
 
 app.listen(PORT, () => {
