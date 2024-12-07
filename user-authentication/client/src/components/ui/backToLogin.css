@@ -1,0 +1,21 @@
+.back_to_login {
+  background-color: #f0f0f0;
+  padding: 0.8rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+  font-size: 14px;
+  color: #165ef0;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.back_to_login svg {
+  font-size: 1.2rem;
+}
+
+.back_to_login:hover {
+  background-color: #ededed;
+}
